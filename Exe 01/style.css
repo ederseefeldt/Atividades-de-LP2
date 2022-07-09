@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#placa {
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 3vw;
+}
+
+#placa h2 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11vw;
+	color: #09f;
+	text-shadow: 0px 0px 15px #39f;
+	text-align: center;
+}
+
+#placa h3 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+	color: red;
+	text-shadow: 0px 0px 15px rgb(255, 38, 0);
+	text-align: center;
+}
+
+.vagas {
+    color: rgb(58, 58, 58);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);;
+}
